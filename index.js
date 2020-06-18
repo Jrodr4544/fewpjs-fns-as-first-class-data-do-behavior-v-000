@@ -16,12 +16,12 @@ function greet(string) {
   console.log(time)
 
   if (time < 12) {
-    return "Good Morning"
+    return "Good Morning";
   } 
   if (12 <= time && time <= 17) {
-    return "Good Afternoon"
+    return "Good Afternoon";
   } else {
-    return 'Good Evening'
+    return 'Good Evening';
   }
 }
 
