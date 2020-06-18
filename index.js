@@ -17,7 +17,8 @@ function greet(string) {
   // console.log(time.split())
   if (time < 12) {
     return "Good Morning"
-  } else if (12 <= time <= 17) {
+  } 
+  if (12 <= time <= 17) {
     return "Good Afternoon"
   } else {
     return 'Good Evening'
