@@ -14,7 +14,7 @@ function handleClick(e) {
 function greet(string) {
   const time = parseInt(string)
   console.log(time)
-  // console.log(time.split())
+
   if (time < 12) {
     return "Good Morning"
   } 
