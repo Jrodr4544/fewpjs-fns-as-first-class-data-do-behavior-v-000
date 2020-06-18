@@ -11,8 +11,8 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 
-function greet(string) {
-  const time = parseInt(string)
+function greet(phrase) {
+  const time = parseInt(phrase)
   console.log(time)
 
   if (time < 12) {
@@ -27,6 +27,6 @@ function greet(string) {
 
 /* Write your implementation of displayMessage() */
 
-function displayMessage(string) {
+function displayMessage(message) {
   document.getElementById('greeting').innerHTML = string;
 }
