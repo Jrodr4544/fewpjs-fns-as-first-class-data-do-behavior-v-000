@@ -28,5 +28,5 @@ function greet(string) {
 /* Write your implementation of displayMessage() */
 
 function displayMessage(string) {
-  document.selectById
+  document.getElementById('greeting').innerHTML = string
 }
