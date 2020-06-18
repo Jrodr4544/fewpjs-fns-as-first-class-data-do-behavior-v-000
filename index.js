@@ -12,7 +12,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 
 function greet(string) {
-  let time = parseInt(string)
+  const time = parseInt(string)
   console.log(time)
   // console.log(time.split())
   if (time < 12) {
